@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTestCase" preserve-order="true" >
+
+        <suite-files>
+           <suite-file path="TestRunner1.xml"/>
+            <suite-file path="TestRunner2.xml"/>
+            <suite-file path="TestRunner3.xml"/>
+
+        </suite-files>
+
+</suite>

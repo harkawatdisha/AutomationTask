@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestComponent1"  preserve-order="true">
+    <test name="ResolutionMaximize" preserve-order="true" >
+        <parameter name="url" value="https://www.xm.com/"/>
+        <parameter name="resolution" value="Max"/>
+        <classes>
+            <class name="UIFeatures.UiTest"/>
+        </classes>
+    </test>
+    </suite>
